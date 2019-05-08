@@ -1,0 +1,56 @@
+[
+
+  {
+     "ParameterKey" : "vpccidrblock",
+     "ParameterValue": "10.0.0.0/16"
+
+
+  },
+  {
+    "ParameterKey" : "vpcsubnet1cidrblock",
+    "ParameterValue": "10.0.11.0/24"
+
+
+ },
+ {
+    "ParameterKey" : "vpcsubnet2cidrblock",
+    "ParameterValue": "10.0.12.0/24"
+
+
+ },
+ {
+    "ParameterKey" : "vpcsubnet3cidrblock",
+    "ParameterValue": "10.0.14.0/24"
+
+
+ },
+ {
+    "ParameterKey" : "AvailabilityZone1",
+    "ParameterValue": "us-east-1a"
+
+
+ },
+ {
+    "ParameterKey" : "AvailabilityZone2",
+    "ParameterValue": "us-east-1b"
+
+
+ },
+ {
+    "ParameterKey" : "AvailabilityZone3",
+    "ParameterValue": "us-east-1c"
+
+
+ },
+ {
+    "ParameterKey" : "DestinationCidrBlock",
+    "ParameterValue": "0.0.0.0/0"
+
+
+ }
+
+
+
+
+
+]

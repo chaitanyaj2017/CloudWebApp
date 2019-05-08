@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+
+files:
+  - source: assignment1-0.0.1-SNAPSHOT.war
+    destination: /opt/tomcat/webapps
+
+  - source: cloudwatch-config.json
+    destination: /opt  
+
+hooks:
+  AfterInstall:
+   - location: ./afterInstall.sh
+     timeout: 180
+     runas: centos
+  ApplicationStart:
+   - location: ./applicationStart.sh
+     timeout: 180
+     runas: centos
